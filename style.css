@@ -60,6 +60,19 @@
   transition: transform 0.2s; /* Smooth hover effect */
 }
 
+/* Use Space Grotesk font for card headings (h2 and h3) */
+.timeline-cards > div h2,
+.timeline-cards > div h3 {
+  font-family: 'Space Grotesk', Arial, sans-serif; /* Use the imported Google Font */
+  font-weight: 700; /* Make headings bold */
+}
+
+/* Use Lato font for card paragraphs */
+.timeline-cards > div p {
+  font-family: 'Lato', Arial, sans-serif; /* Use the imported Steve Mattson font */
+  font-weight: 400; /* Normal weight for easy reading */
+}
+
 /* Make cards a bit bigger on hover */
 .timeline-cards > div:hover {
   transform: scale(1.03);
